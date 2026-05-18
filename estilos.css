@@ -3,6 +3,7 @@ body{
 }
 
 marquee{
+<<<<<<< HEAD
     font-size: 20px;
     background: cadetblue;
 }
@@ -198,4 +199,103 @@ h3{
     width: 7vh;
     height: 4vh;
     margin-left: 10px;
+=======
+    font-size: 50px;
+    background: rgb(91, 163, 219);
+    border-radius: 10px;
+}
+
+.barra-nav{
+    height: 50px;
+    background: rgb(84, 127, 164);
+    border-radius: 15px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+}
+
+
+.barra-nav a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li a:hover{
+    color: white;
+}
+
+
+.buscar{
+    background: transparent;
+    background-color: aliceblue;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+}
+
+.buscador{
+    height: 100px;
+    width: 100px;
+}
+
+.contenedor-inicio{
+    background-color: rgb(183, 211, 239);
+    display: flex;
+    border-radius: 15px;
+    height: 400px;
+}
+
+.caja1{
+    background-color: rgb(183, 211, 239);
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+}
+
+.titulo1{
+    color:rgb(59, 107, 148) ;
+}
+
+.titulo2{
+    color:rgb(0, 0, 0) ;
+    font-size: 35px;
+}
+
+.titulo3{
+    color:rgb(11, 74, 170) ;
+    font-size: 30px;
+}
+
+
+p{
+    text-align: left;
+    margin: 50pxpx;
+}
+
+.imagen1{
+     background-color: rgb(183, 211, 239);
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    transition: transform 1s ease;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.imagen1:hover{
+    transform: translate(20px, -10px);
+>>>>>>> 3556f24defa467caf095a12934cd5ed7c6a92d62
 }
