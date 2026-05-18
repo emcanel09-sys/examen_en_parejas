@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(221, 232, 238);
+}
+
+marquee{
+    font-size: 20px;
+    background: cadetblue;
+}
